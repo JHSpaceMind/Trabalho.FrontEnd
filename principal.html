@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caverna Nerd</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+           <button id="bnticon" onclick="abriLogin()"><img src="./imagem/iconelogin.png" alt=""></button><button ><a href="/vitrine.html">lojinha</a></button> <button onclick="abriContato()">Contato</button>
+        </div>
+        
+        <img id="logo" src="/imagem/logocaverna.png" alt="logoCaverna Nerd">
+    </header>
+    <div id="jnLogin" >
+        <form >
+            <input id="nome" type="text" placeholder="Digite seu nome...">
+            <input id="senha" type="text" placeholder="Digite sua senha...">
+            <button onclick="enviar()">enviar</button>
+        </form>
+    </div>
+    <div id="contatos"> 
+       <ul>
+        <li>GUSTAVO SANTOS</li>
+        <li>JULIA XAVIER</li>
+        <li>MATEUS AZEVEDO</li>
+        <li>MICHELE MOREIRA</li>
+        <li>MURILO BONGARD</li>
+        <li>VITOR FERREIRA</li>
+       </ul>
+    </div>
+    <main>
+        <div id="home">
+            <div id="">
+                <h1>carverna nerd 🎮⚡</h1>
+                <p>A Caverna Nerd é o refúgio perfeito para os fãs de cultura geek e nerd.<br>
+                    Com uma atmosfera única e acolhedora, nossa loja oferece uma vasta seleção de acessórios exclusivos para todos os gostos. <br>
+                    De action figures e camisetas temáticas de animes, filmes e séries a itens colecionáveis de games e quadrinhos, <br>
+                    a Caverna Nerd é o lugar onde cada fã encontra seu tesouro. <br>
+                    Aqui, celebramos o mundo geek com produtos de alta qualidade que trazem seus personagens e universos favoritos para mais perto de você.</p>
+            </div>
+            <div>
+                <img id="imgloja" src="./imagem/carvernaloj.png" alt="">
+            </div>
+        </div>
+    </main>
+<script src="./scrip.js"></script>
+</body>
+</html>
