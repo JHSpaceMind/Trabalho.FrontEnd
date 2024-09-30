@@ -54,6 +54,8 @@ header {
     border-radius: 10px;
     box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.281);
     display: flex;
+    position: relative;
+    flex-direction: column;
     flex: 1;
     width: 80%;
     height: 40vh;
@@ -61,6 +63,14 @@ header {
     margin-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+   
+    
+}
+.uniProduto img{
+    width: 100px;
+    position: relative;
+    justify-content: center;
 }
 
 .footer {
@@ -70,4 +80,17 @@ header {
    width: 100%;
    padding: 3%;
     background-color: #ED7A28;
+}
+.conteudo {
+    display: none;
+}
+
+.mostrar {
+    display: inline;
+}
+
+.ler-mais {
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
 }
