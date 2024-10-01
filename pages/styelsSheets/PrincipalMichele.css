@@ -174,26 +174,14 @@ footer {
         float: left;
         margin-top: 100px;
         width: 200px;
-<<<<<<< HEAD
     }
 
     header {
-=======
-
-    }
-
-    header {
-
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
         padding: 40px 20px;
         flex-direction: column;
         align-items: center;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
     .icon {
         width: 200px;
         height: 50px;
@@ -201,11 +189,6 @@ footer {
         text-align: center;
         align-items: center;
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
     }
 
     #home img {

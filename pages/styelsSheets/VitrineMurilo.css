@@ -126,16 +126,6 @@
     background-color: #e4a67dbb;
   }
   
-<<<<<<< HEAD
-=======
-  .link {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 10px;
-  }
-  
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
   #form,
   #Vendedores {
     font-family: 'Cinzel Decorative';
@@ -150,17 +140,12 @@
     flex-direction: row; 
     justify-content: flex-end;
     align-items: center; 
-<<<<<<< HEAD
     margin-right: 250px;
     padding: 10px;
 
   }
   #carrim{
     margin-right: 20px;
-=======
-    margin: 0;
-    padding: 10px;
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
   }
   
   /* Responsividade */

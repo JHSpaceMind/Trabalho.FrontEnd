@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 * {
-=======
-*{
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +16,6 @@ body {
 
 /*logotipo */
 #logo {
-<<<<<<< HEAD
     height: 166px;
     width: 230px;
     position: relative;
@@ -43,33 +38,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-=======
-    position: relative;
-    width: 50%;
-    max-width: 500px;
-    margin: 20px 0;
-    padding: 0;
-    top: -130px;
-}
-
-/*cabeçalho */
-header {
-    background-color: rgba(44, 144, 166, 0.5);
-    text-align: center;
-    padding: 80px;
-    height: 100px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    transition: height 0.3s;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-top: 0;
-    padding: 20px 0;
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
 }
 
 /* Titulo vendedores */
@@ -120,7 +88,6 @@ h2 {
 
 /* Rodape */
 footer {
-<<<<<<< HEAD
     background-color: rgba(44, 144, 166, 0.5);
     color: #e4a77d;
     font-size: larger;
@@ -154,14 +121,4 @@ footer {
     #Banner{
         flex-direction: column-reverse;
     }
-=======
-    background-color:rgba(44, 144, 166, 0.5); 
-    color:#e4a77d;
-    font-size: larger;
-    padding: 20px; 
-    text-align: center; 
-    position: relative; 
-    z-index: 10;
-
->>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
 }
