@@ -16,7 +16,11 @@ main {
   margin-top: 200px;
 }
 
+<<<<<<< HEAD
 .Banner {    
+=======
+.Banner {
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
     position: fixed;
     height: 15%;
     width: 100%;
@@ -35,7 +39,10 @@ main {
     margin-right: 10%;
 }
 #carrim {
+<<<<<<< HEAD
     margin-right: -100px;
+=======
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
     color: white;
 }
 #botao{
@@ -45,6 +52,7 @@ main {
     
  }
 .btn{
+<<<<<<< HEAD
   width: 200px;
   height: 50px;
   text-decoration: none;
@@ -74,6 +82,39 @@ main {
   width: 230px;
   position: relative;
 
+=======
+    text-decoration: none;
+    margin-left: 8px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    background-color: rgba(144, 184, 235, 0.1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.btn:hover {
+        background-color:#e4a77d;
+    
+}
+
+
+.Banner.btn{
+    display: flex;
+    align-items: end;
+    justify-content: end;   
+    margin-left: 500px;
+    
+}
+#logo {
+  height: 166px;
+  width: 230px;
+  position: relative;
+  margin-top: -18px;
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
 }
 #titulo {
   color: white;
@@ -81,7 +122,10 @@ main {
   font-family: "Cinzel Decorative", serif;
 }
 #descricao {
+<<<<<<< HEAD
   width: 50%;
+=======
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
   color: white;
   text-align: center;
   font-family: "Cinzel Decorative", serif;
@@ -98,7 +142,10 @@ main {
   bottom: 0;
   width: 100%;
   padding: 10px;
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
 }
 #id {
   color: white;
@@ -110,7 +157,10 @@ main {
   color: white;
 }
 #container {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
   position: relative;
   float: right;
   margin-top: 30px;
@@ -119,5 +169,9 @@ main {
   border-radius: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
+<<<<<<< HEAD
+=======
+  background-color: rgba(144, 184, 235, 0.1);
+>>>>>>> a70aba2f05fdca09b23e1539b5b92ca0a56a2cd4
   color: white;
 }
