@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../../images/backgroud1.jpeg) no-repeat center center;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 200px;
+}
+
+.Banner {    
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(44, 144, 166, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-left: auto; 
+    margin-right: 10%;
+}
+#carrim {
+    margin-right: -100px;
+    color: white;
+}
+#botao{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    
+ }
+.btn{
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  background-color: rgba(144, 184, 235, 0.1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+.btn:hover {
+        background-color:#e4a77d;   
+}
+
+.Banner.btn{
+    display: flex;
+    align-items: end;
+    justify-content: end;       
+}
+#logo {
+  margin-left: 40px;
+  height: 166px;
+  width: 230px;
+  position: relative;
+
+}
+#titulo {
+  color: white;
+  text-align: center;
+  font-family: "Cinzel Decorative", serif;
+}
+#descricao {
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-family: "Cinzel Decorative", serif;
+  align-items: center;
+}
+
+#criadores {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: white;
+  word-spacing: 2px;
+  background-color: #e4a67dbb;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin-top: 50px;
+}
+#id {
+  color: white;
+}
+#preco {
+  color: white;
+}
+#descricao {
+  color: white;
+}
+#container {
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+    /* Aumenta o tamanho temporariamente */
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Classe que ativa a animação */
+.pulse-animation {
+  animation: pulse 0.3s ease-in-out;
+}
