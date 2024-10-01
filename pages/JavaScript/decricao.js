@@ -76,6 +76,32 @@ const produtos = [
   }),
 ];
 
+//add o preço dentro do html
+produtos.forEach((produto,i) => {
+  const precoPro = document.getElementById("preco"+i);
+  if(precoPro){
+
+    precoPro.innerHTML ="R$"+produto.preco.toFixed(2);
+  } 
+ })
+
+
+
+function addProduto(itens) {
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+  if (Array.isArray(itens)) {
+    itens.forEach((item) => carrinho.push(item));
+  } else {
+    carrinho.push(itens);
+  }
+  localStorage.setItem("carrinho", JSON.stringify(carrinho));
+ 
+
+  alert("Produto add com sucesso");
+  atualizarCarrim()
+
+}
+
 
 //funcao abre a tela de login
 function abriLogin() {
@@ -86,11 +112,18 @@ function abriLogin() {
     abri.style.display = "none";
   }
 }
+//atualiza o contador do carrim
 function atualizarCarrim(){
-const contator = document.getElementById("qnt-car");
-const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
-contator.innerHTML = carrinho.length;
-}
+  const contator = document.getElementById("qnt-car");
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+  contator.innerHTML = carrinho.length;
+  const car = document.getElementById('carrim');
+  
+  car.classList.add("pulse-animation");
+  
+  setTimeout(()=> {car.classList.remove('pulse-animation')},300);
+  }
+  
 window.onload=function(){
   atualizarCarrim();
 }
@@ -152,7 +185,7 @@ function descricaoP() {
   document.getElementById("img").appendChild(foto);
   // add o button de add no carrinho
   const botao = document.createElement("button");
-  botao.innerHTML = "Add no carrinho 🛒";
+  botao.innerHTML = "Add no carrinho";
   botao.onclick = function () {
     addProduto(item);
   };

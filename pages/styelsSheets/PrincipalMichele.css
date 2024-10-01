@@ -38,6 +38,9 @@ main {
     justify-content: center;
     text-align: center;
 }
+main h1{
+    text-transform: capitalize;
+}
 
 /* pagina principal */
 footer {
