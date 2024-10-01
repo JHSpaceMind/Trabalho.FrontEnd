@@ -42,15 +42,15 @@ main {
     margin-right: 10px;
     text-decoration: none;
     color: aliceblue;
-    
  }
+
 .btn{
   width: 200px;
   height: 50px;
   text-decoration: none;
   padding: 7px 15px;
   border-radius: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cinzel Decorative", serif;
   font-weight: bold;
   background-color: rgba(144, 184, 235, 0.1);
   color: white;
@@ -104,7 +104,11 @@ main {
   color: white;
 }
 #preco {
-  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Cinzel Decorative';
+  color: #e4a77d;
 }
 #descricao {
   color: white;
@@ -116,7 +120,7 @@ main {
   margin-left: 10px;
   padding-bottom: 7px;
   border-radius: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Cinzel Decorative", serif;
   font-weight: bold;
   color: white;
 }

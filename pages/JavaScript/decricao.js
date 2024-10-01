@@ -142,27 +142,27 @@ function addProduto(itens) {
   atualizarCarrim()
 
 }
-//pega nome e senha
-function enviar() {
-  var nome = document.getElementById("nome").value;
-  var email = document.getElementById("email").value;
-  var texbox = document.getElementById("mensagem").value;
-  var checkbox = document.getElementById("check").value;
-  var senha = document.getElementById("senha").value;
+// //pega formulario
+// function enviar() {
+//   var nome = document.getElementById("nome").value;
+//   var email = document.getElementById("email").value;
+//   var texbox = document.getElementById("mensagem").value;
+//   var checkbox = document.getElementById("check").value;
+ 
 
-  salvarUsuario(nome, email,texbox,checkbox,senha);
-}
-//salvar nome e senha
-function salvarUsuario(nomeUsuario, emailUsuario,texboxUsuario,checkboxUsuario,senhaUsuario) {
-  const formularioJson = {
-    nome: nomeUsuario,
-    email: emailUsuario,
-    texbox: texboxUsuario,
-    checkbox: checkboxUsuario,
-    senha: senhaUsuario,
-  };
-  localStorage.setItem("form", JSON.stringify(formularioJson));
-}
+//   salvarUsuario(nome, email,texbox,checkbox,senha);
+// }
+// //salvar nome e senha
+// function salvarUsuario(nomeUsuario, emailUsuario,texboxUsuario,checkboxUsuario,senhaUsuario) {
+//   const formularioJson = {
+//     nome: nomeUsuario,
+//     email: emailUsuario,
+//     texbox: texboxUsuario,
+//     checkbox: checkboxUsuario,
+//     senha: senhaUsuario,
+//   };
+//   localStorage.setItem("form", JSON.stringify(formularioJson));
+// }
 //envia  produto para outra pagina
 function mostrarProtudo(item) {
   localStorage.setItem("produto", JSON.stringify(item));
