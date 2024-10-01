@@ -1,0 +1,37 @@
+# 📌Projeto E-commerce - FrontEnd (Finalizado)
+
+ ## 📎Descrição do Projeto
+
+ > Este projeto foi desenvolvido como parte do curso Serratec(FullStack) 2024.2,turma 022 de Nova Friburgo/Teresópolis.
+ > O objetivo principal é criar um Site Básico utilizando HTML,CSS e JavaScript Com o conhecimento Adquirido durante ás aulas.
+
+# 🛠️Funcionalidades do projeto
+ *O Site do E-commerce permite:*
+
+ `Site responsivo:`E um site que muda de acordo com o aparelho eletrônico utilizado(largura,altura e tamanho).
+ `Armazenar informações:` Armazena a quantidade de produtos posto no carrinho.
+`Login:` Contém um login porém não o envia ao sitema.
+`Páginas e animações:` Tem página inicial,página do produto,carrinho de compras e formulário,tendo animações no botão.
+
+ # 📎Programas Utilizado
+
+ >  📌JavaScript
+ >  📌HTMl
+ >  📌CSS
+
+# 📌Equipe de Desenvolvimento
+## Este projeto foi desenvolvido pelo Grupo 1.
+
+- Vitor Silveira
+
+- Mateus Azevedo
+
+- Michele Moreira
+
+- Júlia Henriques
+
+- Gustavo Santos
+
+- Murilo Bongard
+
+- Orientação: Prof. Moisés
