@@ -7,7 +7,7 @@
   header {
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 50%;
   }
   
   body {
@@ -24,16 +24,24 @@
     gap: 10px;
     padding: 9%;
   }
+  #input{
+    width: 50%;
+    height: 4%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e4a67dbb;
+    color: white;
+  }
   
   .navPrincipal {
     position: fixed;
-    height: 15%;
+    height: 200px;
     width: 100%;
     background-color: rgba(44, 144, 166, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 80px 20px;
   }
   
   #pesquisa {
@@ -54,30 +62,10 @@
   
   #logo {
     display: flex;
-    margin: 16% 0 0;
+    margin: 5% 0 0;
     padding: 4%;
     width: 300px;
   }
-  
-  .secundaria {
-    position: fixed;
-    top: 15%;
-    background-color: #e4a67dbb;
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    width: 100%;
-    height: 3%;
-  }
-  
-  .secundaria h3 {
-    font-family: 'Cinzel Decorative';
-    color: white;
-    font-weight: 400;
-    font-size: medium;
-  }
-  
   .uniProduto {
     border-radius: 10px;
     box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.281);
@@ -94,10 +82,13 @@
   }
   #textProduto{
     color: white;
-    margin-top: -10%;
+    margin-top: 15%;
+    font-family: 'Cinzel Decorative';
   }
   #imgProduto{
+    height: 30%;
     margin-top: 10%;
+    
   }
   .uniProduto img {
     width: 200px;
@@ -115,6 +106,9 @@
     color: white;
     background-color: #295c70;
     
+  }
+  #imglog{
+    display: flex;
   }
   
   .footer {
@@ -144,9 +138,34 @@
     padding: 10px;
 
   }
-  #carrim{
-    margin-right: 20px;
-  }
+  #carrinho {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    font-size: 2rem; 
+    background-color: rgba(44, 144, 166, 0.8); 
+    border: none;
+    border-radius: 10px;
+    color: white; 
+    cursor: pointer; /
+}
+/* Responsividade para tamanhos menores */
+@media (max-width: 800px) {
+    #carrinho {
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+        padding: 8px 16px; /* Ajusta o preenchimento */
+    }
+}
+
+@media (max-width: 500px) {
+    #carrinho {
+        font-size: 1.2rem; /* Ajusta ainda mais o tamanho da fonte */
+        padding: 6px 12px; /* Ajusta o preenchimento */
+    }
+}
+
   
   /* Responsividade */
   @media (max-width: 1200px) {
@@ -170,10 +189,6 @@
     }
     .navPrincipal {
       flex-direction: column;
-      height: auto;
-    }
-  
-    .secundaria {
       height: auto;
     }
   

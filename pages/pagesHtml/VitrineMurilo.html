@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../styelsSheets/VitrineMurilo.css" />
     <title>Caverna Nerd</title>
   </head>
@@ -22,111 +28,169 @@
             id="logo"
             src="../../images/logo transp.png"
             alt="Logo Caverna Nerd"
-            
         /></a>
         <div class="link">
-          <a id="form" href="../pagesHtml/formulario.html" 
-          >Formulario</a>
-          <a id="Vendedores" href="../pagesHtml/Vendedores.html" 
-          >Vendedores</a>          
+          <a id="form" href="../pagesHtml/formulario.html">Formulario</a>
+          <a id="Vendedores" href="../pagesHtml/Vendedores.html">Vendedores</a>
         </div>
-        <div id="carrim">🛒(<span id="qnt-car"></span>)</div>
-      </nav>
-      <nav class="secundaria">
-        <h3 >Frete grátis para todo Brasil</h3>
+        <div id="carrinho">🛒 (<span id="qnt-car"></span>)</div>
+        <div id="imglog">
+          <img src="../../images/login.png" alt="imagenLogin" />
+        </div>
       </nav>
     </header>
     <section id="VitrineLoja">
       <div class="uniProduto">
-        <h2  id="textProduto" >Jogo GLOOMHAVEN</h2>
+        <h2 id="textProduto">Jogo GLOOMHAVEN</h2>
         <img id="imgProduto" src="../../images/jogo.jpg" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[0])">🛒</button>
         <p>
-          
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[0])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Jogo War</h2>
+        <h2 id="textProduto">Jogo War</h2>
         <img id="imgProduto" src="../../images/jogowar.png" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[1])">🛒</button>
         <p>
-         
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[1])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Camisa Atak Titan</h2>
+        <h2 id="textProduto">Camisa Atak Titan</h2>
         <img id="imgProduto" src="../../images/ataktitan.jpg" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[2])">🛒</button>
         <p>
-       
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[2])">
-          
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Camiseta Solo Level</h2>
+        <h2 id="textProduto">Camiseta Solo Level</h2>
         <img id="imgProduto" src="../../images/sololevel.png" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[3])">🛒</button>
         <p>
-        
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[3])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Suporte para controle</h2>
+        <h2 id="textProduto">Suporte para controle</h2>
         <img id="imgProduto" src="../../images/supor.png" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[4])">🛒</button>
         <p>
-         
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[4])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Luminaria</h2>
+        <h2 id="textProduto">Luminaria</h2>
         <img id="imgProduto" src="../../images/luminaria.jpg" alt="" />
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[5])">🛒</button>
         <p>
-        
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[5])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Conjunto Harry Potter</h2>
+        <h2 id="textProduto">Conjunto Harry Potter</h2>
         <img id="imgProduto" src="../../images/harrypotter.jpg" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[6])">🛒</button>
         <p>
-         
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[6])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Messa para jogo RPG</h2>
+        <h2 id="textProduto">Messa para jogo RPG</h2>
         <img id="imgProduto" src="../../images/mesajogorpg.jpg" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[7])">🛒</button>
         <p>
-          
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[7])">
-          🛒
-        </button>
       </div>
       <div class="uniProduto">
-        <h2 id="textProduto" >Bonecos Naruto</h2>
+        <h2 id="textProduto">Bonecos Naruto</h2>
         <img id="imgProduto" src="../../images/boneconaruto.jpg" alt="" />
+
+        <input id="input" type="number" />
+        <button id="carrinho" onclick="mostrarProtudo(produtos[8])">🛒</button>
         <p>
-         
+          <R1
+            style="
+              color: white;
+              font-family: 'Cinzel Decorative';
+              font-size: medium;
+            "
+            >R$90,99</R1
+          >
         </p>
-        <button onclick="mostrarProtudo(produtos[8])">
-          🛒
-        </button>
       </div>
     </section>
     <footer class="footer">
