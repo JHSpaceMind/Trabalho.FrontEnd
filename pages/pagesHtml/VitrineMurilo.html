@@ -1,126 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../styelsSheets/VitrineMurilo.css" />
-  <title>Caverna Nerd</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styelsSheets/VitrineMurilo.css" />
+    <title>Caverna Nerd</title>
+  </head>
 
-<body>
-  <header>
-    <nav class="navPrincipal">
-      <a class="navItens" ><img id="logo" src="../../images/logocaverna.png" alt="Logo Caverna Nerd" /></a>
-      <!-- <a href="#">Roupa</a>
-                <a href="#"></a> -->
-      <div class="link">
-        <ul>
-          <li><a href="/pages/pagesHtml/Vendedores.html" target="_blank">Vendedores</a></li>
-          <li><a href="/pages/pagesHtml/formulario.html" target="_blank">Formulario</a></li>
-        </ul>
+  <body>
+    <header>
+      <nav class="navPrincipal">
+        <a href="./principalMichele.html" class="navItens"
+          ><img
+            id="logo"
+            src="../../images/logo transp.png"
+            alt="Logo Caverna Nerd"
+            
+        /></a>
+        <div class="link">
+          <a id="form" href="../pagesHtml/formulario.html" 
+          >Formulario</a>
+          <a id="Vendedores" href="../pagesHtml/Vendedores.html" 
+          >Vendedores</a>          
+        </div>
+        <div id="carrim">🛒(<span id="qnt-car"></span>)</div>
+      </nav>
+      <nav class="secundaria">
+        <h3 >Frete grátis para todo Brasil</h3>
+      </nav>
+    </header>
+    <section id="VitrineLoja">
+      <div class="uniProduto">
+        <h2  id="textProduto" >Jogo GLOOMHAVEN</h2>
+        <img id="imgProduto" src="../../images/jogo.jpg" alt="" />
+        <p>
+          
+        </p>
+        <button onclick="mostrarProtudo(produtos[0])">
+          🛒
+        </button>
       </div>
-      
-      <div id="carrim">(<span id="qnt-car"></span>)</div>
-    </nav>
-    <nav class="secundaria">
-      <h3>Frete grátis para todo Brasil</h3>
-    </nav>
-  </header>
-  <section id="VitrineLoja">
-    <div class="uniProduto">
-      <h2>Jogo GLOOMHAVEN</h2>
-      <img src="../../images/jogo.jpg" alt="">
-      <p>Gloomhaven é um dos jogos de tabuleiro mais aclamados e populares da última década.<br>
-        Criado por Isaac Childres, ele combina elementos de RPG,<br>
-        estratégia e combate tático, oferecendo uma experiência densa e complexa. </p>
-      <button onclick="mostrarProtudo(produtos[0])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Jogo War</h2>
-      <img src="../../images/jogowar.png" alt="">
-      <p>War é um clássico jogo de tabuleiro estratégico que desafia os jogadores a conquistar territórios e dominar o
-        mundo.
-        Com um tabuleiro representando um mapa-múndi,
-        os jogadores assumem o papel de generais, movendo seus exércitos para atacar e defender regiões.</p>
-      <button onclick="mostrarProtudo(produtos[1])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Camisa Atak Titan</h2>
-      <img src="../../images/ataktitan.jpg" alt="">
-      <p>Esta camisa de algodão macio oferece conforto e estilo com uma estampa vibrante de anime. Ideal para fãs, ela
-        combina qualidade e personalidade,<br>
-        estratégia e combate tático, oferecendo uma experiência densa e complexa. </p>
-      <button onclick="mostrarProtudo(produtos[2])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Camiseta Solo Level</h2>
-      <img src="../../images/sololevel.png" alt="">
-      <p>Esta camisa de algodão macio oferece conforto e estilo com uma estampa vibrante de anime. Ideal para fãs, ela
-        combina qualidade e personalidade,<br>
-        estratégia e combate tático, oferecendo uma experiência densa e complexa. </p>
-      <button onclick="mostrarProtudo(produtos[3])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Suporte para controle</h2>
-      <img src="../../images/supor.png" alt="">
-      <p>Que tal um suporte Gamer Personalizado para dar aquele visual unico ao seu controle </p>
-      <button onclick="mostrarProtudo(produtos[4])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Luminaria </h2>
-      <img src="../../images/luminaria.jpg" alt="">
-      <p> Esta luminária em formato de controle remoto é a escolha perfeita para quem busca praticidade e estilo na
-        iluminação do ambiente.
-        Com um design moderno e minimalista, ela se integra facilmente a qualquer decoração.</p>
-      <button onclick="mostrarProtudo(produtos[5])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Conjunto Harry Potter</h2>
-      <img src="../../images/harrypotter.jpg" alt="">
-      <p>Este conjunto Harry Potter, que inclui um cachecol e chinelos, é a escolha perfeita para os fãs da saga mágica.
-      </p>
-      <button onclick="mostrarProtudo(produtos[6])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Messa para jogo RPG</h2>
-      <img src="../../images/mesajogorpg.jpg" alt="">
-      <p> Esta mesa para RPG é o centro ideal para aventuras épicas e sessões emocionantes com amigos. </p>
-      <button onclick="mostrarProtudo(produtos[7])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto">
-      <h2>Bonecos Naruto</h2>
-      <img src="../../images/boneconaruto.jpg" alt="">
-      <p> Os bonecos do anime Naruto são colecionáveis que capturam a essência dos personagens icônicos da série.
-        Com detalhes impressionantes e uma variedade de poses, esses bonecos são perfeitos para fãs de todas as idades.
-      </p>
-      <button onclick="mostrarProtudo(produtos[8])"><a href="./descricao.html" target="_blank">💷</a></button>
-    </div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-    <div class="uniProduto"></div>
-  </section>
-
-  <footer class="footer">
-
-  </footer>
-  <script src="../JavaScript/scrip.js"></script>
-</body>
-
+      <div class="uniProduto">
+        <h2 id="textProduto" >Jogo War</h2>
+        <img id="imgProduto" src="../../images/jogowar.png" alt="" />
+        <p>
+         
+        </p>
+        <button onclick="mostrarProtudo(produtos[1])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Camisa Atak Titan</h2>
+        <img id="imgProduto" src="../../images/ataktitan.jpg" alt="" />
+        <p>
+       
+        </p>
+        <button onclick="mostrarProtudo(produtos[2])">
+          
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Camiseta Solo Level</h2>
+        <img id="imgProduto" src="../../images/sololevel.png" alt="" />
+        <p>
+        
+        </p>
+        <button onclick="mostrarProtudo(produtos[3])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Suporte para controle</h2>
+        <img id="imgProduto" src="../../images/supor.png" alt="" />
+        <p>
+         
+        </p>
+        <button onclick="mostrarProtudo(produtos[4])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Luminaria</h2>
+        <img id="imgProduto" src="../../images/luminaria.jpg" alt="" />
+        <p>
+        
+        </p>
+        <button onclick="mostrarProtudo(produtos[5])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Conjunto Harry Potter</h2>
+        <img id="imgProduto" src="../../images/harrypotter.jpg" alt="" />
+        <p>
+         
+        </p>
+        <button onclick="mostrarProtudo(produtos[6])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Messa para jogo RPG</h2>
+        <img id="imgProduto" src="../../images/mesajogorpg.jpg" alt="" />
+        <p>
+          
+        </p>
+        <button onclick="mostrarProtudo(produtos[7])">
+          🛒
+        </button>
+      </div>
+      <div class="uniProduto">
+        <h2 id="textProduto" >Bonecos Naruto</h2>
+        <img id="imgProduto" src="../../images/boneconaruto.jpg" alt="" />
+        <p>
+         
+        </p>
+        <button onclick="mostrarProtudo(produtos[8])">
+          🛒
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2024 Caverna Nerd. Todos os direitos reservados.</p>
+    </footer>
+    <script src="../JavaScript/decricao.js"></script>
+  </body>
 </html>
