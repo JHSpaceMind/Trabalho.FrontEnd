@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(back1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/*logotipo */
+#logo {
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 0;
+    top: -130px;
+}
+
+/*cabeçalho */
+header {
+    background-color: rgba(44, 144, 166, 0.5);
+    text-align: center;
+    padding: 80px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transition: height 0.3s;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+/* Titulo vendedores */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/*vendedores individuais */
+.vendedor {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 0 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+/* imagem  vendedores */
+.vendedor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/*botoes*/
+.botao-link img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+
+.botao-link img:hover {
+    transform: scale(1.1);
+}
+
+/* Rodape */
+footer {
+    background-color:rgba(44, 144, 166, 0.5); 
+    color:#e4a77d;
+    font-size: larger;
+    padding: 20px; 
+    text-align: center; 
+    position: relative; 
+    z-index: 10;
+
+}
