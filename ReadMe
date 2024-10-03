@@ -9,10 +9,10 @@
 
 O Site do E-commerce permite:
 
- `Site responsivo:`E um site que muda de acordo com o aparelho eletrônico utilizado(largura,altura e tamanho).
-Armazenar informações: Armazena a quantidade de produtos posto no carrinho.
-Login: Contém um login porém não o envia ao sitema.
-Páginas e animações: Tem página inicial,página do produto,carrinho de compras e formulário,tendo animações no botão.
+**Site responsivo**: Adapta-se ao dispositivo utilizado (largura, altura e tamanho).
+**Armazenar informações**: Armazena a quantidade de produtos no carrinho.
+**Login**: Contém um login, mas não envia ao sistema.
+**Páginas e animações**: Inclui página inicial, página do produto, carrinho de compras e formulário, com animações nos botões.
 
 ## 📎Programas Utilizado
 
