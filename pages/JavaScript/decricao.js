@@ -77,15 +77,12 @@ const produtos = [
 ];
 
 //add o preço dentro do html
-produtos.forEach((produto,i) => {
-  const precoPro = document.getElementById("preco"+i);
-  if(precoPro){
-
-    precoPro.innerHTML ="R$"+produto.preco.toFixed(2);
-  } 
- })
-
-
+produtos.forEach((produto, i) => {
+  const precoPro = document.getElementById("preco" + i);
+  if (precoPro) {
+    precoPro.innerHTML = "R$" + produto.preco.toFixed(2);
+  }
+});
 
 function addProduto(itens) {
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
@@ -95,13 +92,10 @@ function addProduto(itens) {
     carrinho.push(itens);
   }
   localStorage.setItem("carrinho", JSON.stringify(carrinho));
- 
 
   alert("Produto add com sucesso");
-  atualizarCarrim()
-
+  atualizarCarrim();
 }
-
 
 //funcao abre a tela de login
 function abriLogin() {
@@ -113,20 +107,22 @@ function abriLogin() {
   }
 }
 //atualiza o contador do carrim
-function atualizarCarrim(){
+function atualizarCarrim() {
   const contator = document.getElementById("qnt-car");
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
   contator.innerHTML = carrinho.length;
-  const car = document.getElementById('carrim');
-  
+  const car = document.getElementById("carrim");
+
   car.classList.add("pulse-animation");
-  
-  setTimeout(()=> {car.classList.remove('pulse-animation')},300);
-  }
-  
-window.onload=function(){
-  atualizarCarrim();
+
+  setTimeout(() => {
+    car.classList.remove("pulse-animation");
+  }, 300);
 }
+
+window.onload = function () {
+  atualizarCarrim();
+};
 //adiciona no carrinho
 function addProduto(itens) {
   const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
@@ -136,33 +132,30 @@ function addProduto(itens) {
     carrinho.push(itens);
   }
   localStorage.setItem("carrinho", JSON.stringify(carrinho));
- 
 
   alert("Produto add com sucesso");
-  atualizarCarrim()
+  atualizarCarrim();
+}
+// //pega formulario
+// function enviar() {
+//   var nome = document.getElementById("nome").value;
+//   var email = document.getElementById("email").value;
+//   var texbox = document.getElementById("mensagem").value;
+//   var checkbox = document.getElementById("check").value;
 
-}
-//pega nome e senha
-function enviar() {
-  var nome = document.getElementById("nome").value;
-  var email = document.getElementById("email").value;
-  var texbox = document.getElementById("mensagem").value;
-  var checkbox = document.getElementById("check").value;
-  var senha = document.getElementById("senha").value;
-
-  salvarUsuario(nome, email,texbox,checkbox,senha);
-}
-//salvar nome e senha
-function salvarUsuario(nomeUsuario, emailUsuario,texboxUsuario,checkboxUsuario,senhaUsuario) {
-  const formularioJson = {
-    nome: nomeUsuario,
-    email: emailUsuario,
-    texbox: texboxUsuario,
-    checkbox: checkboxUsuario,
-    senha: senhaUsuario,
-  };
-  localStorage.setItem("form", JSON.stringify(formularioJson));
-}
+//   salvarUsuario(nome, email,texbox,checkbox,senha);
+// }
+// //salvar nome e senha
+// function salvarUsuario(nomeUsuario, emailUsuario,texboxUsuario,checkboxUsuario,senhaUsuario) {
+//   const formularioJson = {
+//     nome: nomeUsuario,
+//     email: emailUsuario,
+//     texbox: texboxUsuario,
+//     checkbox: checkboxUsuario,
+//     senha: senhaUsuario,
+//   };
+//   localStorage.setItem("form", JSON.stringify(formularioJson));
+// }
 //envia  produto para outra pagina
 function mostrarProtudo(item) {
   localStorage.setItem("produto", JSON.stringify(item));
@@ -193,25 +186,8 @@ function descricaoP() {
   document.getElementById("container").appendChild(botao);
 }
 
-function trocaCor(){
-  let botao = document.getElementsByClassName('btn')
-  botao.mouseenter
-  botao.style.b
+function trocaCor() {
+  let botao = document.getElementsByClassName("btn");
+  botao.mouseenter;
+  botao.style.b;
 }
-// localStorage.setItem("carrinho", JSON.stringify(carrinhoTosave));
-
-// const textoString = localStorage.getItem("carrinnho");
-
-// localStorage.removeItem("carrinho");
-
-// function enviar(){
-//     let nome = document.getElementById('nome').value;
-//     let senha = document.getElementById('senha').value;
-//     //alert("Login com sucesso !! "+nome +" "+ senha);
-// }
-// const carrinho = JSON.parse(localStorage.getItem("produtos"));
-
-// if (carrinho) {
-//   console.log(carrinho.usuario); // Acessa o nome e senha do usuário
-//   console.log(carrinho.produtos); // Acessa o array de produtos
-// }

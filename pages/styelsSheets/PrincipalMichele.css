@@ -1,4 +1,4 @@
-/* para zerar as margens*/
+/*para zerar as margens e não atrapalhar no css da pag*/
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* pagina principal */
+/* essa daqui é a logo da pagina principal */
 #logo {
     position: relative;
     width: 50%;
@@ -22,7 +22,7 @@ body {
     top: -130px;
 }
 
-/* pagina principal */
+/* essa aqui é a header da pagina principal */
 header {
     background-color: rgba(44, 144, 166, 0.5);
     padding: 80px 20px;
@@ -39,10 +39,11 @@ main {
     text-align: center;
 }
 main h1{
+    /* ele transforma a primeira letra em letra grande, e muda o estilo */
     text-transform: capitalize;
 }
 
-/* pagina principal */
+/* esse é o footer da pagina principal */
 footer {
     background-color: rgba(44, 144, 166, 0.5);
     color: #e4a77d;
@@ -53,13 +54,11 @@ footer {
     z-index: 10;
 }
 
-/* pagina principal */
 #descicaoT {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
-    /* Opcional: aplica um desfoque ao fundo do elemento */
 }
 
 /* div com o outro uso do header */
@@ -85,7 +84,7 @@ footer {
     overflow: hidden;
 }
 
-/*animação para ativar ao passar mouse*/
+/* só lembrando que é a animação para ativar ao passar mouse*/
 .icon::before,
 .icon::after {
     content: "";
@@ -140,7 +139,6 @@ footer {
     max-width: 120%;
     height: auto;
     margin-left: 20px;
-    /* Centraliza a imagem */
 }
 
 /* texto maior Caverna Nerd */
