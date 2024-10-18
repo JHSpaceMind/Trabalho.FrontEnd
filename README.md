@@ -9,12 +9,12 @@ Este projeto foi desenvolvido como parte do curso **Serratec (FullStack)** 2024.
 
 O site do e-commerce oferece as seguintes funcionalidades:
 
-- **🌈 Responsividade**: O layout do site adapta-se ao dispositivo utilizado, garantindo uma boa experiência em telas de diferentes tamanhos (desktop, tablet e mobile).
+- **💻 Responsividade**: O layout do site adapta-se ao dispositivo utilizado, garantindo uma boa experiência em telas de diferentes tamanhos (desktop, tablet e mobile).
 - **🛒 Armazenamento de informações**: O sistema permite armazenar a quantidade de produtos no carrinho de compras, facilitando a gestão das seleções do usuário.
 - **🔐 Login**: Inclui um sistema de login que, embora ainda não realize a autenticação, prepara o caminho para futuras implementações.
 - **📄 Páginas e animações**: O site conta com uma página inicial, página de produto, carrinho de compras e um formulário, além de animações envolventes nos botões, tornando a navegação mais dinâmica e atraente.
 
-## 💻 Tecnologias Utilizadas
+## 🎯Tecnologias Utilizadas
 
 As tecnologias empregadas neste projeto foram:
 
@@ -32,5 +32,5 @@ Este projeto foi desenvolvido com muito carinho pelo **Grupo 1**:
 - Julia Henriques
 - Gustavo Santos
 - Murilo Bongard
-- 
+  
 Esperamos que você tenha gostado do nosso projeto! 😊
