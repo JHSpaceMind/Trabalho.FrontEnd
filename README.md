@@ -1,4 +1,5 @@
-# 🌐 Projeto E-commerce - FrontEnd (Finalizado)
+![Finalizado](https://img.shields.io/badge/Status-Finalizado-brightgreen)
+# 🌐 Projeto E-commerce - FrontEnd
 
 ## 📜 Descrição do Projeto
 
