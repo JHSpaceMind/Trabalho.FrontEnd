@@ -32,19 +32,5 @@ Este projeto foi desenvolvido com muito carinho pelo **Grupo 1**:
 - Julia Henriques
 - Gustavo Santos
 - Murilo Bongard
-
-## 🚀 Próximos Passos
-
-Futuramente, pretendemos:
-
-- Implementar a funcionalidade de autenticação no sistema de login.
-- Adicionar um banco de dados para armazenamento persistente de dados.
-- Melhorar a interface do usuário com novas animações e designs responsivos.
-
-## 📧 Contato
-
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato!
-
----
-
+- 
 Esperamos que você tenha gostado do nosso projeto! 😊
